@@ -1,4 +1,15 @@
-const circle={};
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
 
-console.log(circle);
 
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+}
+
+console.log(getRandomInt(3));
+// expected output: 0, 1 or 2
+
+console.log(getRandomInt(1));
+// expected output: 0
+
+console.log(Math.random());
+// expected output: a number from 0 to <1
