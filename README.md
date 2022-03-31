@@ -1,3 +1,4 @@
 # DeepJavaScript
 Objects
 Arrays
+Functions 
