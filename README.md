@@ -1,5 +1,5 @@
 # DeepJavaScript
-Objects
+LO11_Objects
 Arrays
 Functions 
 
