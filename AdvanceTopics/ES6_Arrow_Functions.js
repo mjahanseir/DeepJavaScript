@@ -44,3 +44,5 @@ let person= new Person("bob");
 person.printNameArrow()
 person.printNameFunction()
 console.log(this.name)
+
+
