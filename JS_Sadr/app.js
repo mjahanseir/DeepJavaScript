@@ -85,3 +85,36 @@ const proExist = pro.filter((item) => {
 });
 
 console.log(proExist);
+
+console.log("_________OOP_________");
+function Prod(title, price) {
+  this.title = title;
+  this.price = price;
+
+  this.prodInfo = function () {
+    return `Title: ${this.title}  -  Price: ${this.price}`;
+  };
+}
+
+const prod1 = new Prod("paper", 99);
+const prod2 = new Prod("pen", 82);
+
+console.log(prod1.prodInfo());
+console.log(prod2.prodInfo());
+
+class Prods {
+  constructor(nm, prc) {
+    this.nm = nm;
+    this.prc = prc;
+  }
+
+  prodInfo() {
+    return `Title: ${this.title}  -  Price: ${this.price}`;
+  }
+}
+
+const prods1 = new Prod("paper", 99);
+const prods2 = new Prod("pen", 82);
+
+console.log(prods1.prodInfo());
+console.log(prods2.prodInfo());
