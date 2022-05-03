@@ -9,16 +9,16 @@ console.log(str0);
 str11 = 'My name is "Mike" and It\'s my car';
 console.log(str11);
 
-str1 =
+str11 =
   'Hello World!\nMy name is "Mike" and It\'s my car\nMy profile folder is : C:\\Users\\Mike';
-console.log(str1);
+console.log(str11);
 
-let name = "Mike",
-  age = 20;
-str2 = `My name is ${name}`;
-console.log(str2);
-str2 = `I'm ${age}, and my brother is two years older. So he is ${age + 2}`;
-console.log(str2);
+// let name = "Mike",
+//   age = 20;
+// str12 = `My name is ${name}`;
+// console.log(str12);
+// str12 = `I'm ${age}, and my brother is two years older. So he is ${age + 2}`;
+// console.log(str12);
 
 st = `Hello World!
 My name is ${name} and It's my car
@@ -53,3 +53,37 @@ console.log('str.lastIndexOf("css") : ' + str.lastIndexOf("css"));
 console.log('str.includes("welcome") : ' + str.includes("welcome"));
 console.log(str.includes("JavaScript"));
 console.log(str.includes("javascript"));
+
+console.log(`
+
+****************************
+
+
+String Methods & Properties
+
+`);
+
+let str1 = "Hello, welcome to JavaScript!";
+console.log(str1.startsWith("welcome"));
+console.log(str1.startsWith("Hello"));
+console.log(str1.endsWith("JavaScript"));
+console.log(str1.endsWith("!"));
+
+console.log(str1.substring(3));
+console.log(str1.substring(3, 10));
+
+let str12 = "Javascript",
+  str13 = "Hello";
+console.log(str12.repeat(2));
+console.log(str13.repeat(3));
+console.log(str1.substring(2, 5).repeat(3));
+
+console.log(str13.concat(" World!"));
+console.log(str12.concat(" ", "is a ", "programming language"));
+console.log(str12 + " is a " + "programming language");
+console.log(str13 + " " + "Wo" + "rld!");
+
+console.log("JavaScript".repeat(2));
+console.log("Hello".concat(" World!"));
+console.log("Hello World!".charAt(4));
+console.log("Hello World!".length);
