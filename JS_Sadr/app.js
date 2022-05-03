@@ -47,3 +47,41 @@ for (let i = 0; i < 10; i++) {
 for (let item = 0; item < pro.length; item++) {
   console.log("title : ", pro[item].title);
 }
+
+const price = 99;
+const newPrice = 109;
+if (price > newPrice) {
+  console.log("Discont Added");
+} else if (newPrice < price) {
+  console.log(`price : ${newPrice}`);
+} else console.log("same price");
+
+console.log("_________Functions in JS_________");
+
+const addProduct = (name, price) => `Title ${name} , Price: ${price}`;
+
+const re = addProduct("Book4", 99);
+
+console.log(re);
+
+console.log("_________Arrays Methods_________");
+
+pro.forEach((item) => {
+  console.log(item.title);
+});
+
+console.log("_________Map Methods_________");
+
+const proTit = pro.map((item) => {
+  return item.title;
+});
+
+console.log(proTit);
+
+console.log("_________Filter Methods_________");
+
+const proExist = pro.filter((item) => {
+  return item.exist === true;
+});
+
+console.log(proExist);
