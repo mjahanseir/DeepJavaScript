@@ -1,14 +1,15 @@
+// Function Definition
 // Function Declaration
+// Function Expression
 
 function showBio() {
-  console.log("First name = Abbas");
-  console.log("Last name = Moqaddam");
+  console.log("First name = aa");
+  console.log("Last name = mm");
   console.log("Age = 33");
 }
-showBio();
-showBio();
 
-// Function Expression
+showBio();
+showBio();
 
 const showBio2 = function () {
   console.log("First name = aa");
@@ -18,3 +19,6 @@ const showBio2 = function () {
 
 showBio2();
 showBio2();
+
+let func1 = showBio2;
+func1();
