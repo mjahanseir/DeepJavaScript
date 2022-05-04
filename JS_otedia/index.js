@@ -1,89 +1,39 @@
-let message = "hello";
-console.log(message);
+console.log(` Conversion between Strings & Numbers `);
 
-let str0 = "It's a car";
-console.log(str0);
-str0 = 'My name is "Mike"';
-console.log(str0);
+console.log("3" * 4);
 
-str11 = 'My name is "Mike" and It\'s my car';
-console.log(str11);
+console.log("Hello" * 3);
 
-str11 =
-  'Hello World!\nMy name is "Mike" and It\'s my car\nMy profile folder is : C:\\Users\\Mike';
-console.log(str11);
+console.log("10" * 1);
+console.log("10.3" * 1);
+console.log("0xff" * 1);
+console.log("Hello" * 1);
+console.log("22aa" * 1);
+console.log("" * 1);
 
-// let name = "Mike",
-//   age = 20;
-// str12 = `My name is ${name}`;
-// console.log(str12);
-// str12 = `I'm ${age}, and my brother is two years older. So he is ${age + 2}`;
-// console.log(str12);
+console.log("7" + 3);
 
-st = `Hello World!
-My name is ${name} and It's my car
-My profile folder is : c:\\Users\\${name}`;
-console.log(st);
+let a = "200";
+let b = Number(a);
+console.log(typeof a);
+console.log(typeof b);
 
-console.log(" -----   String Methods & Properties  ------- ");
+console.log(Number("400"));
+console.log(Number("Hello"));
+console.log(Number("2e6"));
+console.log(Number("7") + 3);
 
-let str = "Hello World!";
-console.log(str.length);
+console.log(String(10));
+console.log(String(22.11));
+console.log(String(2e6));
+console.log(String(NaN));
 
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+console.log((10).toString());
+console.log((22.11).toString());
+console.log((2e6).toString());
+console.log(NaN.toString());
 
-console.log(str.charAt(1));
-console.log(str.charAt(6));
-console.log(str[6]);
-
-str = "Hello, welcome to JavaScript!";
-console.log(str.indexOf("o"));
-console.log(str.indexOf("to"));
-console.log(str.indexOf("Java"));
-console.log(str.indexOf("java"));
-
-console.log(str.indexOf("o", 5));
-console.log(str.indexOf("o", 13));
-
-console.log('str.lastIndexOf("o") : ' + str.lastIndexOf("o"));
-console.log('str.lastIndexOf("o", 10) : ' + str.lastIndexOf("o", 10));
-console.log('str.lastIndexOf("css") : ' + str.lastIndexOf("css"));
-
-console.log('str.includes("welcome") : ' + str.includes("welcome"));
-console.log(str.includes("JavaScript"));
-console.log(str.includes("javascript"));
-
-console.log(`
-
-****************************
-
-
-String Methods & Properties
-
-`);
-
-let str1 = "Hello, welcome to JavaScript!";
-console.log(str1.startsWith("welcome"));
-console.log(str1.startsWith("Hello"));
-console.log(str1.endsWith("JavaScript"));
-console.log(str1.endsWith("!"));
-
-console.log(str1.substring(3));
-console.log(str1.substring(3, 10));
-
-let str12 = "Javascript",
-  str13 = "Hello";
-console.log(str12.repeat(2));
-console.log(str13.repeat(3));
-console.log(str1.substring(2, 5).repeat(3));
-
-console.log(str13.concat(" World!"));
-console.log(str12.concat(" ", "is a ", "programming language"));
-console.log(str12 + " is a " + "programming language");
-console.log(str13 + " " + "Wo" + "rld!");
-
-console.log("JavaScript".repeat(2));
-console.log("Hello".concat(" World!"));
-console.log("Hello World!".charAt(4));
-console.log("Hello World!".length);
+console.log((100).toString(2));
+console.log((100).toString(4));
+console.log((100).toString(16));
+console.log((100).toString(36));
