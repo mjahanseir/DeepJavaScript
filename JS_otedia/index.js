@@ -1,7 +1,7 @@
-// while , do-while & for Loops
+// Sets
 
-let n = 0;
-while (n < 3) {
-  console.log("n = " + n);
-  n++;
-}
+let mySet = new Set();
+console.log(mySet);
+
+mySet.add(1);
+console.log(mySet);
