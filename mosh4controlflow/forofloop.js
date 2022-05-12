@@ -7,5 +7,5 @@ for(let i in person){
 }
 
 const color=['r','g','b'];
-for(let i in color)
-    console.log(i, color[i])
+for(let i of color)
+    console.log(i)
