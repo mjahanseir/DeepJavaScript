@@ -16,17 +16,13 @@ console.log(course)
 
 
 const course2= courses
-    .find(  (course) =>{
-        return course.name === 'xnm';
-    });
+    .find(  (course) => course.name === 'xnm');
 
 console.log(course2)
 
 
 
-const cou= courses.findIndex((cou)=> {
-    return cou.name === 'a';
-});
+const cou= courses.findIndex((cou)=>cou.name === 'a');
 
 console.log(cou)
 

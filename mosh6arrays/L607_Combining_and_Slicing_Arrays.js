@@ -13,3 +13,9 @@ console.log(slice2);
 
 const slice3=combined.slice();
 console.log(slice3);
+
+const f=['a','b','c'];
+const s=[4,5,6];
+
+const c= [...f,...s]
+console.log(c)
