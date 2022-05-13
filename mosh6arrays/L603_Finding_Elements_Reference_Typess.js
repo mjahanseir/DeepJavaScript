@@ -6,11 +6,22 @@ const courses=[
 
 // console.log(courses.includes({id:1 , name:'a'}));
 
-const course= courses.find((course)=> {
-    return course.name === 'xyz';
-});
+//Predicate or callback function
+const course= courses
+    .find(  function (course) {
+        return course.name === 'a';
+    });
 
 console.log(course)
+
+
+const course2= courses
+    .find(  (course) =>{
+        return course.name === 'xnm';
+    });
+
+console.log(course2)
+
 
 
 const cou= courses.findIndex((cou)=> {
