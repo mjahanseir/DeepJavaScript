@@ -1,6 +1,13 @@
 let cards = [7, 4]
 cards.push(6)
-//console.log(cards)
+console.log(cards)
+cards.pop()
+console.log(cards)
+cards.unshift("hey")
+console.log(cards)
+
+cards.shift()
+console.log(cards)
 
 // Push the newMessage to the messages array, and then log out the array
 
@@ -11,6 +18,12 @@ let messages = [
 ]
 
 let newMessage = "Same here!"
+messages.push(newMessage)
+console.log(messages);
+
+messages.pop()
+console.log(messages);
+
 
 
 
