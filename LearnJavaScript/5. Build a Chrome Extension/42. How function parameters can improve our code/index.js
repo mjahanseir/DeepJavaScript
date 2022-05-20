@@ -28,12 +28,12 @@ function renderLeads(leads) {
 deleteBtn.addEventListener("dblclick", function() {
     localStorage.clear()
     myLeads = []
-    renderLeads()
+    renderLeads(myLeads)
 })
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
     localStorage.setItem("myLeads", JSON.stringify(myLeads) )
-    renderLeads()
+    renderLeads(myLeads)
 })
