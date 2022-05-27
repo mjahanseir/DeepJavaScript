@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM introduction</title>
+</head>
+<body>
+<h1 id="heading">DOM introduction</h1>
+<p class="p1">Lorem ipsum dolor <a href="#">Linke</a> sit amet, consectetur adipisicing elit. Doloribus, tempora?</p>
+<p class="p1">Lorem ipsum dolor <a href="#">Linke</a> sit amet, consectetur adipisicing elit. Doloribus, tempora?</p>
+
+<script>
+    let a= document.getElementById('heading');
+    console.log(a);
+    console.log(a.nodeType);
+    console.log(a.nodeName);
+    let b= document.getElementsByTagName('p')
+    console.log(b);
+    console.log(b.length);
+    console.log(b[0]);
+    console.log(Array.from(b[0]));
+
+    let c= document.getElementsByClassName('p1')
+    console.log(c);
+    console.log(c.length);
+    console.log(c[0]);
+
+    console.log('-----------------------------------');
+
+    let d= document.querySelector('#heading')
+    console.log(d);
+    console.log(d.length);
+    console.log(d[0]);
+
+    let e= document.querySelectorAll('.p1')
+    console.log(e);
+    console.log(e.length);
+    console.log(e[0]);
+
+
+</script>
+</body>
+</html>
