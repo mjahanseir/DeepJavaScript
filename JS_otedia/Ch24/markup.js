@@ -7,9 +7,11 @@ console.log(ul.innerHTML);
 ul.innerHTML = '<li>Apple</li><li>Banana</li>';
 console.log(ul.innerHTML);
 
-let newChildren = `<li>Orange</li>
-<li>Cherry</li>
-<li>Lemon</li>`;
+let newChildren = `
+                    <li>Orange</li>
+                    <li>Cherry</li>
+                    <li>Lemon</li>
+                    `;
 ul.innerHTML += newChildren;
 console.log(ul.innerHTML);
 
