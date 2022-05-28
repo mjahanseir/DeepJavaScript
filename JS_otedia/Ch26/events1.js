@@ -22,6 +22,6 @@ button.addEventListener('mouseup' , () => {
 	message.innerHTML += `<p>Mouseup: ${Date.now()}</p>`;
 });
 
-button.addEventListener('contextmenu' , () => {
-	message.innerHTML += `<p>Context Menu: ${Date.now()}</p>`;
-});
+// button.addEventListener('contextmenu' , () => {
+// 	message.innerHTML += `<p>Context Menu: ${Date.now()}</p>`;
+// });
