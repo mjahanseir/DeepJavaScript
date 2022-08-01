@@ -14,6 +14,7 @@ console.log(typeof (lName));
 console.log("****************************");
 const pi=3.14;
 console.log(pi);
+
 console.log("****************************");
 
 let person={
@@ -27,12 +28,15 @@ console.log(person);
 person['age']=40;
 console.log(person);
 
-
+console.log("****************************");
 console.log("      Arrays     ");
 
 let selectedColor=['red','blue']
+selectedColor[3]='yellow'
 console.log(selectedColor);
 console.log(selectedColor[0]);
+console.log(selectedColor[3]);
+console.log(selectedColor[4]);
 console.log(selectedColor.length);
 
 
