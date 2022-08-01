@@ -11,6 +11,11 @@ console.log(age);
 console.log(typeof (lName));
 
 
+console.log("****************************");
+const pi=3.14;
+console.log(pi);
+console.log("****************************");
+
 let person={
     name:"kil",
     age:30
